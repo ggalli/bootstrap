@@ -1,27 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <title>Projeto final: Curso PSD to Bootstrap</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
 
+<body>
+	<div class="safe-area">
+		<nav class="navbar navbar-toggleable-md navbar-light">
 
-  </head>
-  <body>
-
-
-		
-
-
+			<div class="container">
 
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  </body>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+				<a class="navbar-brand" href="#">Breeze</a>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Rates</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contacts</a>
+						</li>
+					</ul>
+				</div>
+				<!--navbar-collapse-->
+			</div>
+			<!--container-->
+		</nav>
+
+		<div id="slide" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#slide" data-slide-to="0" class="active"></li>
+				<li data-target="#slide" data-slide-to="1"></li>
+				<li data-target="#slide" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 offset-sm-3">
+
+							<div class="carousel-item active">
+								<h2 class="carousel-headline">Free website for your app</h2>
+								<h3 class="carousel-subheadline">Download two PSD mockups both for desktop and mobile layouts</h3>
+								<p class="carousel-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident veniam doloribus eveniet asperiores vel quae quibusdam iusto rerum ipsam quidem, voluptas voluptates, nemo harum animi eius quod obcaecati delectus! Illum!</p>
+								<a href="" class="btn btn-outline-secondary">learn more</a>
+								<a href="" class="btn btn-success">download app</a>
+							</div>
+
+							<div class="carousel-item">
+								<h2 class="carousel-headline">Free website for your app</h2>
+								<h3 class="carousel-subheadline">Download two PSD mockups both for desktop and mobile layouts</h3>
+								<p class="carousel-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident veniam doloribus eveniet asperiores vel quae quibusdam iusto rerum ipsam quidem, voluptas voluptates, nemo harum animi eius quod obcaecati delectus! Illum!</p>
+								<a href="" class="btn btn-outline-secondary">learn more</a>
+								<a href="" class="btn btn-success">download app</a>
+							</div>
+
+						</div>
+						<!--col-sm-6 offset-sm-3-->
+					</div>
+					<!--row-->
+				</div>
+				<!--container-->
+
+				<a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+				<a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+			</div>
+		</div>
+
+	</div>
+	<!--safe-area-->
+
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
 </html>
